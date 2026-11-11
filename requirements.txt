@@ -1,0 +1,7 @@
+numpy
+pyarrow
+rank-bm25
+scikit-learn
+scipy
+torch
+transformers

@@ -1,0 +1,40 @@
+# Keep the repository limited to source code and its documentation.
+/paper/
+/sample/
+/repos/
+/ext/
+/sched/
+/*.md
+!README.md
+/*.txt
+!requirements.txt
+
+# Manuscript table generation and internal backups.
+/code/gen_tables*.py
+/code/make_tables.py
+/code/train3_v2_backup.py
+/code/sched/
+
+# Data, models, logs, and generated results.
+/data/
+/ckpt/
+/logs/
+/results/
+/done/
+*.pt
+*.pth
+*.pkl
+*.jsonl
+*.parquet
+*.npy
+*.npz
+*.pdf
+*.tex
+*.csv
+*.tsv
+*.log
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
